@@ -2,44 +2,67 @@
   colour: white
   length: 10
   location: top
+  genes: 
+    - RP11-117B23
+    - RP11-94J21
+    - GSHP-189N21
+    - RP11-227M19
+    - RP11-13H10
 - label: 15.32
   colour: white
   length: 5
+  genes: 
 - label: 15.31
   colour: white
   length: 5
+  genes: 
+    - RP11-91M19
 - label: 15.2
   colour: grey
   length: 10
+  genes: 
+    - RP11-1C1
+    - RP11-79L13
+    - RP11-29N3
+    - RP11-81P9
 - label: 15.1
   colour: white
   length: 5
+  genes: 
 - label: 14.3
   colour: black
   length: 10
+  genes: 
 - label: 14.2
   colour: white
-  length: 1
+  length: 3
+  genes: 
 - label: 14.1
   colour: black
   length: 10
+  genes: 
 - label: 13.3
   colour: white
   length: 10
+  genes: 
 - label: 13.2
   colour: white
   length: 7
+  genes: 
 - label: 13.1
   colour: white
   length: 6
+  genes: 
 - label: 12
   colour: darkgrey
   length: 8
+  genes: 
 - label: 11
   colour: grey
   length: 4
   location: bottom
+  genes: 
 - label: C
   colour: white
-  length: 5
+  length: 7
   location: top

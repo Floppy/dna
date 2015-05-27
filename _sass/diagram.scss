@@ -1,4 +1,7 @@
 .diagram {
+
+  padding: 10px;
+  box-sizing: border-box;
   
   span  {
     
@@ -7,17 +10,29 @@
 
     &.dna {
       
-      border: 1px solid black; 
+      border: 1px solid black;
+      border-bottom: 0px;
       width: 40px;
+      height: 100%;
 
       &.bottom {
         border-radius: 0px 0px 20px 20px;
+        border-bottom: 1px;
       }
 
       &.top {
         border-radius: 20px 20px 0px 0px;
       }
       
+    }
+
+    &.genes {
+      font-size: 75%;
+      overflow: visible;
+    }
+    
+    &.label {
+      overflow: visible;
     }
     
   }

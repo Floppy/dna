@@ -1,0 +1,24 @@
+---
+---
+<div style='height: 100%' class='diagram'>
+
+  {% for band in site.data.5p %}
+
+    <div class='band' style='height: {{band.length}}%'>
+      <span 
+        class='dna {{band.location}}' 
+        style='background: {{band.colour}}'>
+      </span>
+      <span class='label'>
+        {{ band.label }}
+      </span>
+      <!--<span class='genes'>
+        {% for gene in band.genes %}
+          {{ gene }}<br/>
+        {% endfor %}
+      </span>-->
+    </div>
+
+  {% endfor %}
+  
+</div>
